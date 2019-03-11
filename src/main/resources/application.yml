@@ -1,0 +1,14 @@
+#配置端口
+server:
+  port: 8080
+
+#配置数据库
+spring:
+  application:
+    name: mysql-server
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #这里的votesystem是mysql数据库
+    url: jdbc:mysql://localhost:3306/votesystem?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
